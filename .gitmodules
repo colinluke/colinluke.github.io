@@ -1,0 +1,3 @@
+[submodule "star-wars-quiz"]
+	path = star-wars-quiz
+	url = https://github.com/colinluke/star-wars-quiz.git
