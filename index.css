@@ -9,9 +9,15 @@ body {
     color: white;
 }
 
+h1.title {
+    font-size: 24pt;
+    text-align: center;
+}
+
 .centered-photo {
     margin: auto;
     border: 1px solid white;
     border-radius: 50%;
+    height: 250px;
 }
 
