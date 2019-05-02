@@ -4,6 +4,10 @@
     font-family: "Roboto", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black; /* blueviolet; */
     background-image: linear-gradient(#2a1147, black);
@@ -17,6 +21,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 25px;
 }
 
 section.header-section {
@@ -80,4 +85,16 @@ section.contact-section {
     min-height: 100%;
     background-image: url('images/familyphoto.jpg');
     background-position-y: -430px;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.hidden-anchor {
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
