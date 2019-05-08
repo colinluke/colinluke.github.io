@@ -2,7 +2,7 @@ const mainMenu = document.getElementsByClassName('main-menu')[0];
 const menuTop = mainMenu.offsetTop;
 
 window.onscroll = (event) => {
-    if (window.pageYOffset >= menuTop) {
+    if (window.pageYOffset >= (menuTop + 10)) {
         if (!mainMenu.classList.contains('fixed-menu')) {
             mainMenu.classList.add('fixed-menu');
         }
