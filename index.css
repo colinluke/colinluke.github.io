@@ -34,7 +34,7 @@ section.header-section > h1 {
     font-size: 72pt;
 }
 
-section  {
+section {
     padding: 10px;
 }
 
@@ -66,6 +66,11 @@ nav.main-menu > ul > li {
     padding: 10px;
 }
 
+nav.main-menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
 section.about-section {
     min-height: 100%;
     background-image: linear-gradient(#2a1147, black);
@@ -83,7 +88,7 @@ section.portfolio-section {
 
 section.contact-section {
     min-height: 100%;
-    background-image: url('images/familyphoto.jpg');
+    background-image: url("images/familyphoto.jpg");
     background-position-y: -430px;
 }
 
@@ -97,4 +102,8 @@ section.contact-section {
     position: relative;
     top: -50px;
     visibility: hidden;
+}
+
+section.contact-section {
+    color: black;
 }
